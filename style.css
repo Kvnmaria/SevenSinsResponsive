@@ -74,6 +74,7 @@ p {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px 10px black;
 }
 
 .gluttonyimg {
@@ -87,6 +88,7 @@ p {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px 10px black;
 }
 
 .wrathimg {
@@ -99,6 +101,7 @@ p {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px 10px black;
 }
 
 .prideimg {
@@ -112,6 +115,7 @@ p {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px 10px black;
 }
 
 .slothimg {
@@ -124,6 +128,8 @@ p {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px 10px black;
+
 }
 
 .greedimg {
@@ -137,6 +143,7 @@ p {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px 10px black;
 }
 
 .envyimg {
@@ -150,6 +157,7 @@ p {
     background: #AAAAAA;
     border-radius: 20px;
     margin-bottom: 20px;
+    box-shadow: 10px 10px 60px 10px black;
 }
 
 .lustimg {
@@ -162,16 +170,18 @@ p {
 
 
     .gluttony {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
 
     }
 
     .gluttonyimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
@@ -180,16 +190,18 @@ p {
 
 
     .wrath {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
 
     }
 
     .wrathimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
@@ -197,16 +209,17 @@ p {
     }
 
     .pride {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
-
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
     }
 
     .prideimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
@@ -214,16 +227,17 @@ p {
     }
 
     .sloth {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
-
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
     }
 
     .slothimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
@@ -231,16 +245,17 @@ p {
     }
 
     .greed {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
-
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
     }
 
     .greedimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
@@ -248,16 +263,17 @@ p {
     }
 
     .envy {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
-
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
     }
 
     .envyimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
@@ -265,16 +281,17 @@ p {
     }
 
     .lust {
-        height: 150px;
+        height: 197px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
-        width: 100%;
-
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px 10px black;
     }
 
     .lustimg {
-        height: 150px;
+        height: 197px;
         width: 120px;
         border-radius: 20px;
         float: left;
