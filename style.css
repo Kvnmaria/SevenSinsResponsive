@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to right, #AAAAAA, #ce1212);
+}
+
+p {
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+
+
+.title-section {
+    position: relative;
+}
+
+
+.main-img {
+    width: 100%;
+    opacity: 0.9
+}
+
+.main-txt {
+    font-size: 2.3rem;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    background: linear-gradient(to right, #000 0%, #000 25%, #CE1212 50%, #CE1212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+
+}
+
+@media screen and (min-width:550px) {
+    .main-txt {
+        font-size: 2.3rem;
+        font-weight: 800;
+        position: absolute;
+        top: 30%;
+        left: 52%
+    }
+}
+
+@media screen and (max-width:1276px) {
+
+    .main-txt {
+        font-size: 2.3rem;
+        font-weight: 800;
+        position: absolute;
+        top: 15%;
+        left: 52%;
+    }
+
+
+}
+
+.parent-container {
+    padding: 2% 4%;
+}
+
+.gluttony {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+}
+
+.gluttonyimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+.wrath {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+}
+
+.wrathimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.pride {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+}
+
+.prideimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+.sloth {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+}
+
+.slothimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.greed {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+}
+
+.greedimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+.envy {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+}
+
+.envyimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.lust {
+    margin-top: 30px;
+    background: #AAAAAA;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.lustimg {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:1150px) {
+
+
+    .gluttony {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .gluttonyimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+
+    .wrath {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .wrathimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .pride {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .prideimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .sloth {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .slothimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .greed {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .greedimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .envy {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .envyimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .lust {
+        height: 150px;
+        margin-top: 30px;
+        background: #AAAAAA;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .lustimg {
+        height: 150px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .p-lust {
+        margin-left: 30px;
+    }
+
+
+}
