@@ -6,28 +6,32 @@
     box-sizing: border-box;
 }
 
+/* Body Section */
 body {
     text-align: center;
     background: linear-gradient(to right, #AAAAAA, #ce1212);
 }
 
+/* ParaGraph */
 p {
     font-size: 23px;
     line-height: 1.5;
 }
 
 
-
+/* Title Section */
 .title-section {
     position: relative;
 }
 
-
+/* Main Image */
 .main-img {
     width: 100%;
     opacity: 0.9
 }
 
+
+/* Main Text */
 .main-txt {
     font-size: 2.3rem;
     font-weight: 800;
@@ -43,6 +47,8 @@ p {
 
 }
 
+
+/* Media Queries for Main-Txt */
 @media screen and (min-width:550px) {
     .main-txt {
         font-size: 2.3rem;
@@ -53,6 +59,7 @@ p {
     }
 }
 
+/* Media Queries for Main-Txt */
 @media screen and (max-width:1276px) {
 
     .main-txt {
@@ -66,10 +73,13 @@ p {
 
 }
 
+
+/* Parent Container */
 .parent-container {
     padding: 2% 4%;
 }
 
+/* Gluttony */
 .gluttony {
     margin-top: 30px;
     background: #AAAAAA;
@@ -77,13 +87,14 @@ p {
     box-shadow: 10px 10px 60px 10px black;
 }
 
+/* Gluttony Image */
 .gluttonyimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
-
+/* Wrath */
 .wrath {
     margin-top: 30px;
     background: #AAAAAA;
@@ -91,12 +102,15 @@ p {
     box-shadow: 10px 10px 60px 10px black;
 }
 
+/* Wrath Image */
 .wrathimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+
+/* Pride */
 .pride {
     margin-top: 30px;
     background: #AAAAAA;
@@ -104,13 +118,14 @@ p {
     box-shadow: 10px 10px 60px 10px black;
 }
 
+/* Pride Image */
 .prideimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
-
+/* Sloth */
 .sloth {
     margin-top: 30px;
     background: #AAAAAA;
@@ -118,27 +133,29 @@ p {
     box-shadow: 10px 10px 60px 10px black;
 }
 
+/* Sloth Image */
 .slothimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+/* Greed */
 .greed {
     margin-top: 30px;
     background: #AAAAAA;
     border-radius: 20px;
     box-shadow: 10px 10px 60px 10px black;
-
 }
 
+/* Greed Image */
 .greedimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
-
+/* Envy */
 .envy {
     margin-top: 30px;
     background: #AAAAAA;
@@ -146,12 +163,14 @@ p {
     box-shadow: 10px 10px 60px 10px black;
 }
 
+/* Envy Image */
 .envyimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+/* Lust */
 .lust {
     margin-top: 30px;
     background: #AAAAAA;
@@ -160,147 +179,167 @@ p {
     box-shadow: 10px 10px 60px 10px black;
 }
 
+/* Lust Image */
 .lustimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+
+/* Media Queries for Parent Container Elements */
 @media screen and (min-width:1150px) {
 
-
+    /* Gluttony */
     .gluttony {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
 
     }
 
+    /* Gluttony Image */
     .gluttonyimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
-
+    /* Wrath */
     .wrath {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
 
     }
 
+    /* Wrath Image */
     .wrathimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
+    /* Pride */
     .pride {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
     }
 
+    /* Pride Image */
     .prideimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
+    /* Sloth */
     .sloth {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
     }
 
+    /* Sloth Image */
     .slothimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
+    /* Greed */
     .greed {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
     }
 
+    /* Greed Image */
     .greedimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
+    /* Envy */
     .envy {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
     }
 
+    /* Envy Image */
     .envyimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
+    /* Lust */
     .lust {
-        height: 197px;
+        height: 194px;
         margin-top: 30px;
         background: #AAAAAA;
         border-radius: 20px;
         width: 74%;
         margin-left: 14%;
         box-shadow: 10px 10px 60px 10px black;
+        padding-right: 20px;
     }
 
+    /* Lust Image */
     .lustimg {
-        height: 197px;
+        height: 194px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
-    .p-lust {
-        margin-left: 30px;
-    }
+
 
 
 }
