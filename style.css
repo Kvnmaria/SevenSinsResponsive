@@ -49,6 +49,17 @@ span {
     border-radius: 50px;
 }
 
+.flex-img {
+    height: 30px;
+    width: 60px;
+
+}
+
+.grid-img {
+    height: 30px;
+    width: 60px;
+}
+
 
 .btn-grid {
     padding: 4% 12%;
@@ -81,8 +92,6 @@ span {
     }
 
 }
-
-
 
 
 /* Title Section */
