@@ -726,6 +726,7 @@ span {
     margin-right: 10px;
 }
 
+
 /* Lust */
 .lust-1 {
     margin-top: 50px;
@@ -784,6 +785,11 @@ span {
         grid-column: 1/3;
     }
 
+    /* .p-envy {
+    padding-left: 2%;
+}
+
+*/
 }
 
 @media screen and (max-width:715px) {
