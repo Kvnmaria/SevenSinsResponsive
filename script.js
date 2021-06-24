@@ -1,3 +1,5 @@
+'use strict';
+
 const btnGrid = document.querySelector('.btn-grid');
 const btnFlex = document.querySelector('.btn-flex');
 const hidden = document.querySelector('.hidden');
