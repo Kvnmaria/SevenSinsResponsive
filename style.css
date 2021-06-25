@@ -49,6 +49,24 @@ span {
     border-radius: 50px;
 }
 
+
+.btn-testi {
+    margin-top: 40px;
+
+}
+
+.btn-testimonial {
+    padding: 4% 5%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-testimonial:hover {
+    background: rgb(241, 18, 8);
+
+}
+
 .flex-img {
     height: 40px;
     width: 60px;
@@ -90,6 +108,13 @@ span {
         padding: 2% 5%;
         margin-left: -17%;
     }
+
+    .btn-testimonial {
+        padding: 2% 3%;
+        margin-left: 50px;
+    }
+
+
 
 }
 
