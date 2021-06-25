@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #AAAAAA, #ce1212);
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+h3 {
+    color: white;
+    margin-left: 150px;
+    line-height: 1.5;
+}
+
+
+/* Title Section */
+.title-section {
+    position: relative;
+}
+
+
+/* Main Image Section */
+.main-img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Main Text Section */
+
+.main-txt {
+    font-size: 2.3rem;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #000 0%, #000 25%, #CE1212 50%, #CE1212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Media Queries for Main-Txt */
+
+@media screen and (max-width:2487px) {
+    .main-txt {
+        position: absolute;
+        top: 36%;
+        left: 52%;
+    }
+}
+
+@media screen and (max-width:2200px) {
+    .main-txt {
+        position: absolute;
+        top: 35%;
+        left: 52%;
+    }
+}
+
+@media screen and (max-width:1601px) {
+    .main-txt {
+        position: absolute;
+        top: 25%;
+        left: 52%;
+    }
+}
+
+/* Main Container */
+.container {
+    height: 100%;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+
+.testi-1 {
+    margin-right: 50px;
+    position: relative;
+}
+
+.testimonial-1 {
+    background: #0A1931;
+    padding: 5% 8%;
+    border-radius: 50px;
+
+}
+
+
+.mariasimma-img {
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: -45%;
+    left: 37%;
+    border: 2px solid white;
+}
+
+.testi-2 {
+    margin-right: 50px;
+    position: relative;
+
+}
+
+.testimonial-2 {
+    background: #0A1931;
+    padding: 5% 8%;
+    border-radius: 50px;
+    margin-top: 130px;
+}
+
+
+.faustina-img {
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: -45%;
+    left: 37%;
+    border: 2px solid white;
+}
+
+
+.testi-3 {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+.testimonial-3 {
+    background: #0A1931;
+    padding: 5% 8%;
+    border-radius: 50px;
+    margin-top: 130px;
+}
+
+.johnbosco-img {
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: -45%;
+    left: 37%;
+    border: 2px solid white;
+}
+
+@media screen and (min-width:621px) {
+    .mariasimma-img {
+        left: 40%;
+    }
+
+    .faustina-img {
+        left: 40%;
+    }
+
+    .johnbosco-img {
+        left: 40%;
+    }
+}
+
+
+@media screen and (min-width:1211px) {
+
+    .mariasimma-img {
+        left: 45%;
+    }
+
+    .faustina-img {
+        left: 45%;
+    }
+
+    .johnbosco-img {
+        left: 45%;
+    }
+}
+
+@media screen and (min-width:1709px) {
+
+    .mariasimma-img {
+        top: -25%;
+        left: 45%;
+    }
+
+    .faustina-img {
+        top: -25%;
+        left: 45%;
+    }
+
+    .johnbosco-img {
+        top: -25%;
+        left: 45%;
+    }
+}
+
+@media screen and (min-width:887px) {
+    .testi-1 {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .testi-2 {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .testi-3 {
+        width: 80%;
+        margin-left: 100px;
+    }
+}

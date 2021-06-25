@@ -117,6 +117,7 @@ span {
     top: 25%;
     left: 52%;
     transform: translate(-50%, -50%);
+    text-align: center;
     text-transform: uppercase;
     background: linear-gradient(to right, #000 0%, #000 25%, #CE1212 50%, #CE1212 100%);
     -webkit-background-clip: text;
