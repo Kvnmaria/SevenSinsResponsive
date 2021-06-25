@@ -176,7 +176,14 @@ h3 {
     .johnbosco-img {
         left: 40%;
     }
+
+
+    h3 {
+        padding-left: 480px;
+    }
 }
+
+
 
 
 @media screen and (min-width:1211px) {
