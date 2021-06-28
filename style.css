@@ -49,6 +49,24 @@ span {
     border-radius: 50px;
 }
 
+
+.btn-testi {
+    margin-top: 40px;
+
+}
+
+.btn-testimonial {
+    padding: 4% 5%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-testimonial:hover {
+    background: rgb(241, 18, 8);
+
+}
+
 .flex-img {
     height: 40px;
     width: 60px;
@@ -91,6 +109,13 @@ span {
         margin-left: -17%;
     }
 
+    .btn-testimonial {
+        padding: 2% 3%;
+        margin-left: 50px;
+    }
+
+
+
 }
 
 
@@ -117,6 +142,7 @@ span {
     top: 25%;
     left: 52%;
     transform: translate(-50%, -50%);
+    text-align: center;
     text-transform: uppercase;
     background: linear-gradient(to right, #000 0%, #000 25%, #CE1212 50%, #CE1212 100%);
     -webkit-background-clip: text;
