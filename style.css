@@ -6,28 +6,110 @@
     box-sizing: border-box;
 }
 
+/* Body Section */
 body {
     text-align: center;
     background: linear-gradient(to right, #AAAAAA, #ce1212);
 }
 
+
+
+/* ParaGraph */
 p {
     font-size: 23px;
     line-height: 1.5;
+    padding: 2%;
+    text-align: left;
 }
 
 
+/* Buttons  */
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+
+.btn {
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn-flex {
+    padding: 4% 10%;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+}
+
+.flex-img {
+    height: 40px;
+    width: 60px;
+
+}
+
+.grid-img {
+    height: 40px;
+    width: 60px;
+}
+
+
+.btn-grid {
+    padding: 4% 12%;
+    cursor: pointer;
+    border: none;
+    color: black;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+}
+
+.btn-flex:hover {
+    background: rgb(241, 18, 8);
+}
+
+.btn-grid:hover {
+    background: rgb(241, 18, 8);
+}
+
+@media screen and (min-width:1078px) {
+
+
+    .btn-flex {
+        padding: 2% 5%;
+        margin-left: 50px;
+    }
+
+    .btn-grid {
+        padding: 2% 5%;
+        margin-left: -17%;
+    }
+
+}
+
+
+/* Title Section */
 .title-section {
     position: relative;
+    background-blend-mode: darken;
 }
 
 
+/* Main Image */
 .main-img {
+    height: 100%;
     width: 100%;
-    opacity: 0.9
+    opacity: 0.8;
 }
 
+
+/* Main Text */
 .main-txt {
     font-size: 2.3rem;
     font-weight: 800;
@@ -39,251 +121,731 @@ p {
     background: linear-gradient(to right, #000 0%, #000 25%, #CE1212 50%, #CE1212 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    ;
-
 }
 
-@media screen and (min-width:550px) {
+
+/* Media Queries for Main-Txt */
+@media screen and (min-width:402px) {
     .main-txt {
         font-size: 2.3rem;
         font-weight: 800;
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 52%
     }
 }
 
-@media screen and (max-width:1276px) {
+/* Media Queries for Main-Txt */
 
+@media screen and (max-width:2487px) {
     .main-txt {
-        font-size: 2.3rem;
-        font-weight: 800;
         position: absolute;
-        top: 15%;
+        top: 36%;
         left: 52%;
     }
-
-
 }
 
+@media screen and (max-width:2200px) {
+    .main-txt {
+        position: absolute;
+        top: 35%;
+        left: 52%;
+    }
+}
+
+@media screen and (max-width:1601px) {
+    .main-txt {
+        position: absolute;
+        top: 25%;
+        left: 52%;
+    }
+}
+
+
+
+/* Parent Container */
 .parent-container {
     padding: 2% 4%;
 }
 
+/* .hidden {
+    display: none;
+} */
+
+
+/* Gluttony */
 .gluttony {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 70px;
+    background: #F3F3F3;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Gluttony Image */
 .gluttonyimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
-
+/* Wrath */
 .wrath {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 50px;
+    background: #F3F3F3;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Wrath Image */
 .wrathimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+
+/* Pride */
 .pride {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 50px;
+    background: #F3F3F3;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Pride Image */
 .prideimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
-
+/* Sloth */
 .sloth {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 50px;
+    background: #F3F3F3;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Sloth Image */
 .slothimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+/* Greed */
 .greed {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 50px;
+    background: #F3F3F3;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Greed Image */
 .greedimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
-
+/* Envy */
 .envy {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 50px;
+    background: #F3F3F3;
     border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Envy Image */
 .envyimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+/* Lust */
 .lust {
-    margin-top: 30px;
-    background: #AAAAAA;
+    margin-top: 50px;
+    background: #F3F3F3;
     border-radius: 20px;
     margin-bottom: 20px;
+    box-shadow: 10px 10px 60px -15px black;
 }
 
+/* Lust Image */
 .lustimg {
     width: 120px;
     height: 100px;
     border-radius: 20px;
 }
 
+
+
+
+
+
+/* Media Queries for Parent Container Elements */
 @media screen and (min-width:1150px) {
 
+    /* Main Txt */
+    .main-txt {
+        position: absolute;
+        top: 42%;
+        left: 52%;
+    }
 
+    /* Gluttony */
     .gluttony {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
+        height: 248px;
+        margin-top: 48px;
+        background: ##F3F3F3;
         border-radius: 20px;
-        width: 100%;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
 
     }
 
+    /* Gluttony Image */
     .gluttonyimg {
-        height: 150px;
+        height: 248px;
         width: 120px;
         border-radius: 20px;
         float: left;
         margin-right: 20px;
     }
 
+    /* Wrath */
+    .wrath {
+        height: 247px;
+        margin-top: 48px;
+        background: #F3F3F3;
+        border-radius: 20px;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
+
+    }
+
+    /* Wrath Image */
+    .wrathimg {
+        height: 247px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    /* Pride */
+    .pride {
+        height: 247px;
+        margin-top: 48px;
+        background: #F3F3F3;
+        border-radius: 20px;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
+    }
+
+    /* Pride Image */
+    .prideimg {
+        height: 247px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    /* Sloth */
+    .sloth {
+        height: 247px;
+        margin-top: 48px;
+        background: #F3F3F3;
+        border-radius: 20px;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
+    }
+
+    /* Sloth Image */
+    .slothimg {
+        height: 247px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    /* Greed */
+    .greed {
+        height: 247px;
+        margin-top: 48px;
+        background: #F3F3F3;
+        border-radius: 20px;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
+    }
+
+    /* Greed Image */
+    .greedimg {
+        height: 247px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    /* Envy */
+    .envy {
+        height: 247px;
+        margin-top: 48px;
+        background: #F3F3F3;
+        border-radius: 20px;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
+    }
+
+    /* Envy Image */
+    .envyimg {
+        height: 247px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    /* Lust */
+    .lust {
+        height: 247px;
+        margin-top: 48px;
+        background: #F3F3F3;
+        border-radius: 20px;
+        width: 74%;
+        margin-left: 14%;
+        box-shadow: 10px 10px 60px -15px black;
+        padding-right: 20px;
+    }
+
+    /* Lust Image */
+    .lustimg {
+        height: 247px;
+        width: 120px;
+        border-radius: 20px;
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:1155px) {
+    .gluttony {
+        width: 80%;
+        margin-left: 10%;
+    }
 
     .wrath {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
-        border-radius: 20px;
-        width: 100%;
-
-    }
-
-    .wrathimg {
-        height: 150px;
-        width: 120px;
-        border-radius: 20px;
-        float: left;
-        margin-right: 20px;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .pride {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
-        border-radius: 20px;
-        width: 100%;
-
-    }
-
-    .prideimg {
-        height: 150px;
-        width: 120px;
-        border-radius: 20px;
-        float: left;
-        margin-right: 20px;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .sloth {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
-        border-radius: 20px;
-        width: 100%;
-
-    }
-
-    .slothimg {
-        height: 150px;
-        width: 120px;
-        border-radius: 20px;
-        float: left;
-        margin-right: 20px;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .greed {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
-        border-radius: 20px;
-        width: 100%;
-
-    }
-
-    .greedimg {
-        height: 150px;
-        width: 120px;
-        border-radius: 20px;
-        float: left;
-        margin-right: 20px;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .envy {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
-        border-radius: 20px;
-        width: 100%;
-
-    }
-
-    .envyimg {
-        height: 150px;
-        width: 120px;
-        border-radius: 20px;
-        float: left;
-        margin-right: 20px;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .lust {
-        height: 150px;
-        margin-top: 30px;
-        background: #AAAAAA;
-        border-radius: 20px;
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
 
+/* Media Queries for all the div for changing the height */
+
+@media screen and (min-width:1514px) {
+
+    .gluttony {
+        height: 168px;
+    }
+
+    .gluttonyimg {
+        height: 168px;
+    }
+
+    .wrath {
+        height: 168px;
+    }
+
+    .wrathimg {
+        height: 168px;
+    }
+
+    .pride {
+        height: 168px;
+    }
+
+    .prideimg {
+        height: 168px;
+    }
+
+    .sloth {
+        height: 168px;
+    }
+
+    .slothimg {
+        height: 168px;
+    }
+
+    .greed {
+        height: 168px;
+    }
+
+    .greedimg {
+        height: 168px;
+    }
+
+    .envy {
+        height: 168px;
+    }
+
+    .envyimg {
+        height: 168px;
+    }
+
+    .lust {
+        height: 168px;
     }
 
     .lustimg {
-        height: 150px;
-        width: 120px;
-        border-radius: 20px;
-        float: left;
-        margin-right: 20px;
+        height: 168px;
     }
 
-    .p-lust {
-        margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grid CSS */
+
+/* Hidden */
+
+
+/* Title Section */
+.title-section-1 {
+    position: relative;
+}
+
+/* Main Image */
+.main-img-1 {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9
+}
+
+/* Main Text */
+.main-txt-1 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    background: linear-gradient(to right, #000 0%, #000 25%, #CE1212 50%, #CE1212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.parent-container-1 {
+    padding: 2% 4%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+/* Gluttony */
+.gluttony-1 {
+    width: 95%;
+    margin-top: 52px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
+
+}
+
+/* Gluttony Image */
+.gluttonyimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-gluttony {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Wrath */
+.wrath-1 {
+    margin-top: 50px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
+}
+
+/* Wrath Image */
+.wrathimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-wrath {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Pride */
+.pride-1 {
+    width: 95%;
+    margin-top: 50px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
+}
+
+/* Pride Image */
+.prideimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-pride {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Sloth */
+.sloth-1 {
+    margin-top: 50px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
+}
+
+
+/* Sloth Image */
+.slothimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-sloth {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Greed */
+.greed-1 {
+    width: 95%;
+    margin-top: 50px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
+}
+
+/* Greed Image */
+.greedimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-greed {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Envy */
+.envy-1 {
+    margin-top: 50px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -15px black;
+}
+
+/* Envy Image */
+.envyimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-envy {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+/* Lust */
+.lust-1 {
+    margin-top: 50px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 60px -15px black;
+}
+
+/* Lust Image */
+.lustimg-1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.p-lust {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:715px) {
+
+
+    .main-txt-1 {
+        position: absolute;
+        top: 40%;
+        left: 52%
+    }
+
+    .parent-container-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
     }
 
 
+    .wrath-1 {
+        margin-left: 50px;
+    }
+
+    .sloth-1 {
+        margin-left: 50px;
+    }
+
+    .envy-1 {
+        margin-left: 50px;
+    }
+
+    .lust-1 {
+        width: 70%;
+        margin-left: 16%;
+        margin-bottom: 30px;
+        grid-column: 1/3;
+    }
+
+    /* .p-envy {
+    padding-left: 2%;
+}
+
+*/
+}
+
+@media screen and (max-width:715px) {
+    .gluttony-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .wrath-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .pride-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .sloth-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .greed-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .envy-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .lust-1 {
+        width: 85%;
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main-txt {
+        position: absolute;
+        top: 15%;
+        left: 52%;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .main-txt {
+        position: absolute;
+        top: 13%;
+        left: 52%;
+    }
+}
+
+
+.hidden-1 {
+    display: none;
 }
